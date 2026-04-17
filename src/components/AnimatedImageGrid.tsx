@@ -5,11 +5,6 @@ const AnimatedImageGrid: React.FC = () => {
   
   const images = [
     {
-      src: "https://images.unsplash.com/photo-1518621012118-696072aa579a?w=400&h=400&fit=crop",
-      caption: "You Made My Dreams Come True",
-      delay: 0
-    },
-    {
       src: "https://images.unsplash.com/photo-1516589178581-6cd7833ae3b2?w=400&h=400&fit=crop",
       caption: "Every Moment With You",
       delay: 0.2
@@ -25,14 +20,19 @@ const AnimatedImageGrid: React.FC = () => {
       delay: 0.6
     },
     {
-      src: "https://images.unsplash.com/photo-1518197336700-b6e7d83b5b93?w=400&h=400&fit=crop",
-      caption: "Love Beyond Words",
-      delay: 0.8
-    },
-    {
       src: "https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07?w=400&h=400&fit=crop",
       caption: "Beautiful Like You",
       delay: 1.0
+    },
+    {
+      src: "https://images.unsplash.com/photo-1508921912186-1d1a45ebb3c1?w=400&h=400&fit=crop",
+      caption: "My Sweet Love",
+      delay: 1.2
+    },
+    {
+      src: "https://images.unsplash.com/photo-1494526585095-c41746248156?w=400&h=400&fit=crop",
+      caption: "Always Together",
+      delay: 1.4
     }
   ];
 
